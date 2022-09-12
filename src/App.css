@@ -1,0 +1,10 @@
+.App {
+  font-family: 'Oxanium', cursive;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width:1023px) {
+ .App {
+  overflow-x: hidden;
+ }
+}

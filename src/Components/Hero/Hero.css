@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.hero {
+    background-image: url('../../Crypto images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0rem;
+    padding-bottom: 25rem;
+}
+.hero-left {
+    margin-left: 0rem;
+    text-align: start;
+}
+
+
+.deals {
+    color: white;
+    font-size: 15px;
+  background-color:  rgb(75, 85, 99);
+width: 19rem;
+height: 2rem;
+   padding: 0.2rem 0.76rem 0.2rem 0.25rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    position: relative;
+    transform: translateX(0rem);
+    margin-bottom: 2rem;
+}
+.deals>span:nth-of-type(1) {
+    z-index: 5;
+  color: rgb(156 ,163 ,175);
+  text-align: center;
+ padding: 0.25rem 1rem;
+margin-left: -2.5rem;
+}
+
+.deals>div {
+    position: absolute;
+    height: 80%;
+  width: 5.5rem;
+  padding: 0 1rem;
+    background-color: white;
+    border-radius: 25px;
+    z-index: 0;
+left: .2rem;
+}
+.deals>span:nth-of-type(2) {
+   color: white;
+   font-size: .75rem;
+   line-height: 1rem;
+transform: translateX(1rem);
+}
+
+
+.hero-text> {
+   color: white;
+ font-weight: 600;
+
+} 
+.hero-text>span {
+padding: 0.5rem 0;
+    color: white !important;
+    font-weight: 600;
+    font-size: 3rem;
+   display: flex;
+ line-height: 1;
+}
+.hero-text>p {
+   color: rgb(209,213,219);
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-bottom: 1.75rem;
+}
+.button2 {
+    outline: none;
+    border: none;
+    background-color: rgb(37 99 235);
+    border-radius: 1.5rem;
+    padding: .25rem 1rem;
+    width: 11rem;
+    height: 2.5rem;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.button2>div {
+  height: 2rem;
+  width: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2>div>div {
+  display: flex;
+   position: relative;
+  
+    width: 0;height: 0;
+    border-top: 4px solid transparent;
+    border-left: 4px solid rgb(37 99 235);
+    border-bottom: 4px solid transparent;
+}
+
+
+.chart {
+    padding: 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(3rem);
+}
+.chart-box {
+display: flex;
+align-items: center ;
+justify-content: center;
+transform: translateX(4rem);
+}
+.icon {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    height: 3rem;
+    width: 3rem;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+
+   gap: 1.5rem;
+}
+.car {
+    display: flex;
+    flex-direction: column; 
+}
+.car>span:nth-of-type(1) {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.car>span:nth-of-type(2) {
+    color: rgb(156 163 175);
+   font-size: .75rem;
+   line-height: 1rem;
+}
+
+
+.why {
+    padding: 3rem 1rem 4rem 1rem;
+    
+}
+.why-right {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.why-right>span {
+   font-size: 3rem;
+   line-height: 1;
+   color: white;
+}
+.why-right>p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(156 ,163 ,175);
+    line-height: 1.7;
+}
+.learn-button {
+ width: fit-content;
+  
+    border: 0;
+    outline: 0;
+    background-color: rgb(59 130 246);
+    color: white;
+    padding: 0.35rem 1rem;
+    border-radius: 9999px;
+}
+
+
+@media screen and (max-width:1023px) {
+    .hero-text>span {
+      font-size: 2.5rem;
+      color: white !important;
+    }  
+    .chart-box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      transform: translateX(0rem);
+    }
+    .box {
+      justify-content: center;
+      align-items: center;
+    }
+    .icon {
+        width: 5rem;
+        height: 5rem;
+    } 
+    .why {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .why-right>span {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .deals {
+        align-items: flex-start;
+    }
+    .hero-text>span {
+        font-size: xx-large;
+        color: white !important;
+      }  
+  
+}

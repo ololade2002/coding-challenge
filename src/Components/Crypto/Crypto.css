@@ -1,0 +1,126 @@
+.active {
+    background-color: blueviolet;
+}
+.crypto {
+    background-color:  rgb(235, 238, 240);
+height: 1000px;
+}
+.crypto-container {
+    transform: translateY(-30rem);
+
+}
+.trade {
+    margin-top: -7rem;
+}
+.trade>p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+.card-preview  {
+    line-height: 1.625;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  padding: 3rem 2rem;
+    background-color: white;
+}
+.active {
+    background-color: rgb(43,7,110);
+
+}
+
+.card-preview img {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 3rem;
+}
+
+.token {
+    display: flex;
+    align-items: center;
+    column-gap: .6rem;
+    padding-bottom: 1.5rem;
+}
+.token>span:nth-of-type(1) {
+    font-size: 32px;
+    font-weight: 700;
+}
+.token>span:nth-of-type(2) {
+   font-weight: 500;
+   font-size: 1.1rem;
+   line-height: 1.7rem;
+   color: rgb(156 163 175);
+}
+.card-preview>span {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.arrow1  {
+   border: 2px solid rgb(209 213 219) ;
+   outline: 0;
+   height: 4rem;
+   width: 4rem;
+   border-radius: 999px;
+   background-color: white;
+   color: rgb(54,113,233);
+}
+.arrow1 i {
+    font-size: 2rem;
+}
+.arrow {
+    background-color: rgb(54,113,233);
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+   padding: 1rem 1.5rem 1rem 2rem;
+   border-radius: 30px;
+}
+.arrow>span {
+    color: white;
+   
+}
+.arrow i {
+    font-size: 2rem;
+   display: flex;
+}
+
+
+
+@media screen and (max-width:1023px) {
+    .crypto {
+        height: 1800px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .crypto {
+        height: 2200px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .crypto {
+        height: 2300px;
+    }
+}

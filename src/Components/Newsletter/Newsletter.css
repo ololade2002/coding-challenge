@@ -1,0 +1,87 @@
+
+.news {
+    background: url('../../Crypto images/hero-bg.png');
+    padding: 9rem 2rem 8rem 2rem;
+    width: 100%;
+}
+.news-box {
+    background: url('../../Crypto images/newsletter-box.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   padding: 3rem 3rem 3rem 3rem;
+  
+    border-radius: 1rem;
+    position: relative;
+}
+.tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-1>span {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+}
+.news-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem 0;
+}
+.news-2>span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+input {
+    border: 0;
+    outline: 0;
+   background-color: transparent;
+   border-bottom: 1px solid white;
+  width: 50vw;
+}
+
+::placeholder {
+    color: white;
+}
+form button {
+    border: 0;
+    outline: none;
+    padding: 0.5rem 1rem;
+  border-radius: 1rem;
+    cursor: pointer;
+}
+@media screen and (max-width:992px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    input {
+      
+       border-bottom: 1px solid white;
+      width: 100%;
+    }
+    .newsBtn {
+        width: fit-content;
+  
+    }
+   
+}
+@media screen and (max-width:520px) {
+    .news {
+        padding: 9rem 1rem 8rem 1rem;  
+    }
+ 
+}

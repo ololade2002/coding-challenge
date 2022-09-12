@@ -1,0 +1,124 @@
+
+.earning {
+    padding: 8rem 1rem;
+    transform: translateY(-28.5rem);
+}
+.text {
+    margin-bottom: 2rem;
+}
+.text>span {
+    color: white;
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 2rem;
+
+}
+.text>p {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color:  rgb(155, 163, 179);
+    padding-top: 1rem;
+}
+.earn {
+    padding: 2.5rem 1rem;
+}
+.rates {
+    border-radius: 25px;
+}
+.form {
+    justify-content: space-between;
+}
+.rate {
+    border: 0;
+    background: transparent;
+    border-bottom: 1.3px solid rgb(218, 223, 232);
+    border-radius: 0;
+    width: 100%;
+    outline: none;
+    }
+    .rate::placeholder {
+        color: rgb(39, 42, 47);
+    font-size: 20px;
+    }
+    .select {
+        font-size: 20px;
+        border-bottom: 1.3px solid rgb(218, 223, 232) !important;
+        padding-right: 9rem;
+        color: rgb(39, 42, 47);
+         border: 0;
+         outline: none;
+          background: transparent;
+    }   
+.calc {
+    border: 0;
+    outline: none;
+   background:rgb(37 99 235);
+   padding: .6rem 2rem;
+   font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    outline-offset: 2px;
+    border-radius:25px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.eth {
+    display: flex;
+    padding: 1rem 1rem;
+    flex-direction: column;
+}
+
+.eth>span:nth-of-type(1) {
+    color: rgb(54 113 233);
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+.eth>span:nth-of-type(2) {
+    padding-bottom: 1rem;
+   color: rgb(33, 43, 65);
+   font-weight: 700;
+   font-size: 32px;
+}
+.eth>span:nth-of-type(2)>span {
+    color: rgb(37 99 235);
+}
+.eth>span:nth-of-type(3) {
+    color: rgb(107 114 128);
+}
+
+
+@media screen and (max-width:1023px) {
+    .earning {
+        padding: 8rem 1rem;
+        transform: translateY(-29rem);
+    }  
+.select {
+    width: 100%;
+  
+}
+@media screen and (max-width:992px) {
+    .earning {
+        padding: 8rem 1rem;
+        transform: translateY(-39rem);
+    }  
+}
+
+}
+@media screen and (max-width:768px) {
+.eth>span:nth-of-type(2) {
+  font-size: 29px;
+ 
+}
+.eth>span:nth-of-type(2)>span {
+   font-size: 29px;
+}  
+.earning {
+    padding: 8rem 1rem;
+    transform: translateY(-37rem);
+}  
+}
+

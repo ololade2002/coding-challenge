@@ -1,0 +1,72 @@
+
+.analysis {
+    background: url('../../Crypto images/hero-bg.png');
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+   padding: 2rem 2rem;
+}
+.heading {
+    text-align: center;
+    color: white;
+    max-width: 758px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.9rem;
+    padding: 1.5rem 0;
+}
+
+.left-a>span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+  
+}
+.left-a>p {
+    font-size: .75rem;
+    line-height: 1rem;
+    color: rgb(156 ,163, 175);
+    margin-top: 1.25rem;
+}
+
+.learn-more {
+    border: none;
+    outline: none;
+    line-height: 1.625;
+    font-size: .8rem;
+    color: white;
+    background-color: rgb(59 130 246);
+    border-radius: 9999px;
+     padding: 0.35rem 0.9rem 0.2rem 0.9rem;
+}
+.cardTwo {
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    }
+
+  
+    
+    
+    @media screen and (max-width:991px) {
+        .heading {
+            font-size: 1.2rem;
+            padding: 0;
+        }
+    .analysis-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardTwo {
+        flex-direction: column-reverse;
+    }
+    .cardOne {
+        flex-direction: column;
+    }
+    }

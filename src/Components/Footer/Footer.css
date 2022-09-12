@@ -1,0 +1,83 @@
+.footer {
+  background: url('../../Crypto images/hero-bg.png');
+padding-bottom: 2rem;
+}
+li {
+  margin-bottom: 1rem;
+transform: translateY(1.8rem);
+color: white;
+}
+.first {
+    font-size: 1.25rem;
+    color: white;
+ 
+}
+.payment {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+   
+}
+
+.payment-img {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.payment-img>img {
+    background-color: transparent;
+}
+li:hover {
+    color: rgb(37 99 235);
+}
+.end {
+    display: flex;
+    justify-content: space-between;
+  padding: 4rem 6rem 2rem 4rem;
+}
+.end>div {
+    color: white;
+}
+.social{
+   display: flex; 
+   gap: 1.7rem;
+}
+.social>a>i {
+    font-size: 25px;
+    color: white;
+}
+.social>a>i:hover {
+    color: rgb(37 99 235);
+}
+
+@media screen and (max-width:992px) {
+   
+  .footer-body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 4rem;
+        gap: 4rem;
+    }
+
+    .payment {
+        padding-top: 3rem;
+    }
+    .payment-f {
+        padding-top: 3rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .end {
+        padding: 2rem 0rem 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+     
+    }
+}

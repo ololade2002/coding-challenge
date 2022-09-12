@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.header {
+    color: white;
+    width: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+    padding: 1rem;
+}
+.logo {
+    padding-left: 3rem;
+}
+.logo img {
+    width: 9rem;
+}
+.nav-links {
+    display: flex;
+    margin-left: auto !important;
+    gap: 1.7rem;
+    color: white;
+    font-family: 'Oxanium',cursive;
+}
+a.nav-link {
+    text-decoration: none;
+   color: white;
+    font-size: 17px;
+    margin-top: 0rem;
+display: flex;
+align-items: center;
+
+}
+.active {
+    color: white !important;
+}
+
+.login {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.login a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+  
+}
+.login>span:nth-of-type(1) {
+    font-size: 17px;
+}
+.login>span:nth-of-type(2) {
+    color: gray;
+    font-size: 17px;
+    font-weight: 100;
+}
+.login a:hover {
+    color: white;
+}
+.button {
+    outline: none;
+    border: none;
+    background-color: rgb(59 130 246);
+    margin-top: -.5rem;
+    color: white;
+    font-size: 16px;
+    padding: .4rem 1rem;
+    border-radius: 1.5rem;
+}
+
+a.nav-link:hover {
+    border-bottom: 1px solid blue;
+    color: white !important;
+width: fit-content;
+margin-top: 0rem;
+padding-top: 0rem;
+padding-bottom: 0rem;
+}
+.offcanvas {
+    background: rgb(34, 34, 69) !important;
+ }
+
+
+
+@media  screen and (max-width:991px) {
+    a.nav-link:hover {
+       border-bottom: 0;
+padding-bottom: -6rem;
+    } 
+ .offcanvas {
+    background: rgb(34, 34, 69) !important;
+ }
+.nav-links {
+    font-family: 'Oxanium',cursive;
+    display: flex;
+    justify-content: center;
+ transform: translateY(6rem);
+    align-items: center;
+}
+a.nav-link {
+    text-decoration: none;
+   color: white;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+}
+a.nav-link:hover {
+    border-bottom: none;
+    color: white !important;
+padding: 0;
+margin: 0;
+}
+
+.login>span:nth-of-type(1) {
+    font-size: 1.5rem;
+}
+.login>span:nth-of-type(2) {
+    color: gray;
+    font-size: 1.0rem;
+    font-weight: 100;
+}
+.button {
+    margin-top: -.5rem;
+    color: white;
+    font-size: 1.3rem;
+    padding: .3rem 1rem;
+}
+.closeBtn {
+    color: white !important;
+}
+}
+
+
