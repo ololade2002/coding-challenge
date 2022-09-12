@@ -15,7 +15,8 @@ const Earning = () => {
          <p data-aos="fade-up" data-aos-offset="230" data-aos-easing="ease" data-aos-duration="2500" data-aos-delay="400" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, id
              similique temporibus dignissimos tempore odio?</p>
       </Col>
-        <Col xs={12} sm={10} md={10} lg={10} className='rates bg-light'   data-aos="zoom-in" data-aos-offset="240" data-aos-easing="ease" data-aos-duration="2500" data-aos-delay="400"   >
+        <Col xs={12} sm={10} md={10} lg={10} className='rates bg-light'  
+      data-aos-anchor-placement="top-bottom"   data-aos="zoom-in" data-aos-offset="240" data-aos-easing="ease" data-aos-duration="2500" data-aos-delay="400"   >
        <div className="earn">
       
        <Row className='form gy-5 align-items-end pb-4  pe-3 ps-3'>
